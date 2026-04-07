@@ -1,6 +1,9 @@
 # Introduction
 This repository contains a documentation of all my notes while I'm learning Windows System Security!
 
+## Table of Content:
+You can find the Table of Content [here](Table-of-Content.md)
+
 ## Why I'm starting Over?
 It's right that I already started learning and practicing Windows Security and did some projects/cracks, ... But I was thinking about the way I'm doing projects and researches, and noticed that I'm jumping around topics very frequently and randomly, sometimes Ring 3, sometimes Ring 0, sometimes Program Exploits, sometimes researches ... I'm not following a structured approach that helps me explore fully and professionally each area of Windows Security! Also I feel that I'm skipping important knowledge or taking some shortcuts which I don't want.
 
