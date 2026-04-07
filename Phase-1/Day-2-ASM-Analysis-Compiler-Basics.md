@@ -50,6 +50,7 @@ After the last task, Gemini told me that in C, we use if, else, and loops. But t
 So I made the program:
 #include <stdio.h>
 
+```c
 int main() {
     int password = 1337;
 
@@ -72,6 +73,7 @@ int main() {
 
     return 0;
 }
+```
 
 Built it as a “Release” build with full optimization, imported it into x64Dbg, and started analyzing the assembly.
 
