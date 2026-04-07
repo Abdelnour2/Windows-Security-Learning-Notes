@@ -83,7 +83,7 @@ Little Endian is the most common thing used today. It stores the “little end�
 - Address 0x102: 34
 - Address 0x103: 12
 
-**Big Endian:**
+**Big Endian:**  
 Big Endian is used in Network Protocols and older Macs. It stores the “big end” (the most significant bit) first at the lowest address. This looks more natural to humans.
 - Address 0x100: 12
 - Address 0x101: 34
