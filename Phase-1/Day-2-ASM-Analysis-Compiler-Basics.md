@@ -1,9 +1,13 @@
 # Day 2: Thursday 26 March 2026
 ## Summary:
-**- Task 1:** Fixing the building configuration on my VS Code.[space][space]
+**- Task 1:** Fixing the building configuration on my VS Code.
+
 **- Task 2:** Researching about Debug and Release Builds.
+
 **- Task 3:** Researching about the Compiler and Linker.
+
 **- Task 4:** Analyzing a piece of ASM code.
+
 **- Task 5:** Observing JMP and CMP ASM instructions in a simple password C program.
 
 ## Note:
