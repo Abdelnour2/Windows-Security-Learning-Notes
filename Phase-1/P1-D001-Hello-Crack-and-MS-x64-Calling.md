@@ -5,9 +5,9 @@
 
 ## Task 1:
 The first task I had was to make a Hello World program in C, and finding the “Hello World” string in x64dbg. So I made the program:
+```c
 #include <stdio.h>
 
-```c
 int main() {
     printf("Hello World!");
     
