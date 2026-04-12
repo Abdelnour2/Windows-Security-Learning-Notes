@@ -1,4 +1,4 @@
-# Day 10: Saturday 11 April 2026
+# Phase 1 - Day 10: Saturday 11 April 2026
 ## Summary:
 Planned a list of C projects to make to practice the language and some hacking/defending techniques that suit Phase 1!
 

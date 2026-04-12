@@ -1,4 +1,4 @@
-# Day 7: Saturday 4 April 2026
+# Phase 1 - Day 7: Saturday 4 April 2026
 ## Summary:
 Did a side research on the European situation of ditching American products, then researched the career of working as a Security Engineer / Researcher in the negative privrings rings.
 

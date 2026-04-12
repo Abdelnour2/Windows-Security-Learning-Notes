@@ -1,4 +1,4 @@
-# Day 3: Monday 30 March 2026
+# Phase 1 - Day 3: Monday 30 March 2026
 ## Summary:
 I started my research on the Stack and researched the difference between Little and Big Endian.
 
