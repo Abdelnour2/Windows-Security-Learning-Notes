@@ -923,23 +923,23 @@ void SaveData(struct Contact *contactList, int *count, char *filePath) {
 
 ## Used TXT File:
 The names and numbers were generated randomly using Google's AI Mode:
-Name: James Smith | Phone Number: +52 72627346
-Name: Aarav Sharma | Phone Number: +81 73456446
-Name: Isabella Conti | Phone Number: +20 19420027
-Name: Hye-jin Park | Phone Number: +61 25507668
-Name: Elena Popova | Phone Number: +39 04748380
-Name: Lucas Silva | Phone Number: +91 10464369
-Name: Yuki Tanaka | Phone Number: +55 94708177
-Name: Robert Johnson | Phone Number: +353 18773500
-Name: Mateo Fernandez | Phone Number: +27 94952764
-Name: Sofia Rossi | Phone Number: +49 33627373
-Name: Amira Mansour | Phone Number: +41 69493319
-Name: Chen Wei | Phone Number: +82 79989198
-Name: Noah Johansson | Phone Number: +34 36804327
-Name: Liam O'Connor | Phone Number: +1 69292940
-Name: Oliver Wright | Phone Number: +971 69123689
-Name: Emilie Müller | Phone Number: +44 99148560
-Name: Maria Garcia | Phone Number: +33 95615141
-Name: Chloe Lefebvre | Phone Number: +46 37878105
-Name: Fatima Al-Sayed | Phone Number: +7 37381102
+Name: James Smith | Phone Number: +52 72627346  
+Name: Aarav Sharma | Phone Number: +81 73456446  
+Name: Isabella Conti | Phone Number: +20 19420027  
+Name: Hye-jin Park | Phone Number: +61 25507668  
+Name: Elena Popova | Phone Number: +39 04748380  
+Name: Lucas Silva | Phone Number: +91 10464369  
+Name: Yuki Tanaka | Phone Number: +55 94708177  
+Name: Robert Johnson | Phone Number: +353 18773500  
+Name: Mateo Fernandez | Phone Number: +27 94952764  
+Name: Sofia Rossi | Phone Number: +49 33627373  
+Name: Amira Mansour | Phone Number: +41 69493319  
+Name: Chen Wei | Phone Number: +82 79989198  
+Name: Noah Johansson | Phone Number: +34 36804327  
+Name: Liam O'Connor | Phone Number: +1 69292940  
+Name: Oliver Wright | Phone Number: +971 69123689  
+Name: Emilie Müller | Phone Number: +44 99148560  
+Name: Maria Garcia | Phone Number: +33 95615141  
+Name: Chloe Lefebvre | Phone Number: +46 37878105  
+Name: Fatima Al-Sayed | Phone Number: +7 37381102  
 Name: Ahmed Hassan | Phone Number: +86 32374903
