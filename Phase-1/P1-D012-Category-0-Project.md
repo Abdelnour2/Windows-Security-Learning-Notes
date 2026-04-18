@@ -922,7 +922,7 @@ void SaveData(struct Contact *contactList, int *count, char *filePath) {
 ```
 
 ## Used TXT File:
-The names and numbers were generated randomly using Google's AI Mode:
+The names and numbers were generated randomly using Google's AI Mode:  
 Name: James Smith | Phone Number: +52 72627346  
 Name: Aarav Sharma | Phone Number: +81 73456446  
 Name: Isabella Conti | Phone Number: +20 19420027  
