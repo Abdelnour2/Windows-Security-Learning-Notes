@@ -1,4 +1,4 @@
-# Phase 1 - Day 18: Wednesday 29 April 2026
+# Phase 1 - Day 19: Sunday 3 May 2026
 ## Summary:
 Made the 7th project of Category 1 which is Generic Hash Table!
 
