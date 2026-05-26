@@ -16,4 +16,6 @@ Because of that change, I decided to change the roadmap to reflect that change! 
 - Making projects in the domain
 - Sharpening my communication and writing skills since this field is field with it
 
-Regarding the C projects, I’ll do Category 2 fully tomorrow! Later, I’ll see if I’ll continue with the rest or if I should do a complete new set of projects reflecting my field since Python is mostly used here. I’ll see about it!
+Regarding the C projects, I’ll see if I’ll continue with the rest or if I should do a complete new set of projects reflecting my field since Python is mostly used here. I’ll see about it!
+
+Regarding HTB's SOC Analyst Job Path, while I'm studying it on a daily basis and actively taking notes, I’m not sure if I'll do daily documentations or not, maybe I'll document a full summary once I finish each module. I'll see about it!
