@@ -28,8 +28,8 @@ Let’s say the computer has 1 GB of RAM. If the program tried to read from an a
 **Problem 2:** Memory Fragmentation  
 Let’s say the computer has 4 GB of RAM. And we need to run 3 programs: a video game that requires 2 GB of RAM, a video player that requires 1 GB of RAM, and a video editing software that requires 2 GB of RAM. So 5 GB of RAM in total.
 
-<img src="Phase-1/Images/Day-4/Image-2.png" align="right" width="75">
-<img src="Phase-1/Images/Day-4/Image-1.png" align="right" width="100">
+<img src="./Images/Day-4/Image-2.png" align="right" width="75">
+<img src="./Images/Day-4/Image-1.png" align="right" width="100">
 Let’s say we ran the video player, and the game at the same time. That’s 3 GB out of 4 GB used. We can’t open the video editing software since there is no space left!
 
 If we closed the video player, now we have 2 GB of RAM free, but we still can’t open the video editing software. Since the 2 GB of RAM are not connected! We can split the 2 GB into 2 1 GB to open the video editing software, but it requires a different program to handle that, and it would be very complicated since we can’t access memory from using just array indexing, we would have to implement some indirect memory accessing feature and in reality, this is what Virtual Memory is.
@@ -38,7 +38,7 @@ If we closed the video player, now we have 2 GB of RAM free, but we still can’
 Since every program can access the whole Physical Memory. Any program running can see/edit any memory address. This means that a program can see what other programs are doing, and changing their data, corrupting other programs.
 
 **Problem 4:** Memory Waisting  
-<img src="Phase-1/Images/Day-4/Image-3.png" align="right" width="300">
+<img src="./Images/Day-4/Image-3.png" align="right" width="300">
 Let’s say we want to run 4 programs. And these 4 programs require the same C libraries to function. Those 4 C libraries need to be loaded for each program, meaning it will be loaded 4 times in this example, taking more space than it should.
 
 **Solution:**  
@@ -52,7 +52,7 @@ The solution was to give each program their own memory space which eventually is
 
 The Physical Memory is divided into 2 main parts, the first part is relatively small, and reserved for the OS. The second part, taking the rest of the memory space, is for programs.
 
-<img src="Phase-1/Images/Day-4/Image-4.png" align="right" width="250">
+<img src="./Images/Day-4/Image-4.png" align="right" width="250">
 Virtual Memory is essentially giving the illusion to programs that they have all the space they need! The size of the Virtual Memory is the maximum size the CPU can handle. A 32-bit CPU can read 232bytes which is 4,294,967,296 bytes which is ~4 GB. So the Virtual Memory in that case will be 4 GB. Between the Virtual Memory and the Physical Memory is a Mapper that takes the data written in the Virtual Addresses by programs in their Virtual Memory, and places them in Physical Addresses in the Physical Memory.
 
 <br><br>
@@ -77,7 +77,7 @@ I mentioned an example where we had 4 GB of RAM and there is 2 GB free in RAM bu
 If multiple programs want to read from a single library. They can do that by reading from a Shared Memory Spacing RAM, or from other places like the Disk, or a Network Interface for example.
 
 **Virtual Memory Implementation:**  
-<img src="Phase-1/Images/Day-4/Image-5.png" align="right" width="350">
+<img src="./Images/Day-4/Image-5.png" align="right" width="350">
 When a program asks for data stored at virtual address 64 in its virtual memory. The mapper looks at the physical address of that data and brings it back to the program.
 
 The mapping table is called Page Table, and each mapping is called Page Table Entry (PTE).
@@ -88,7 +88,7 @@ The size we need to store the mapping for each word is: 232 bytes = 230 words ~=
 
 For this reason, the Virtual and Physical Memory are divided into chunks, where each chunk is a range of addresses called pages, hence the name Page Table.
 
-<img src="Phase-1/Images/Day-4/Image-6.png" align="right" width="400">
+<img src="./Images/Day-4/Image-6.png" align="right" width="400">
 
 **Quick Note:** Chunks in Virtual Memory are called Pages, and Chunks in Physical Memory are called Frames.
 
