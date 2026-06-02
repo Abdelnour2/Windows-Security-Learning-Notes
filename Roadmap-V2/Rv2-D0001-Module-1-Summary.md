@@ -43,9 +43,9 @@ A 7-stage attack lifecycle, it describes how an adversary executes an objective.
 1. **Reconnaissance:** Target selection and information gathering. It can be done in two ways:
     - **Passive:** OSINT via LinkedIn, corporate job postings (can reveal internal tech stacks, OS, and AV solutions), and public documentations.
     - **Active:** Network infrastructure scanning, port mapping, vulnerability identification.
-2. **Weaponization:** Developing or pairing a lightweight, undetectable malware payload/backdoor with an exploit. The payload is engineered to survive reboots (persistance) and downlaod extra modular tools on demand.
+2. **Weaponization:** Developing or pairing a lightweight, undetectable malware payload/backdoor with an exploit. The payload is engineered to survive reboots (persistence) and download extra modular tools on demand.
 3. **Delivery:** Transmission of the payload to the victim. Common vectors include:
-    - **Phishing/Vishing:** Email attachements, malicious links, or phone-based social engineering.
+    - **Phishing/Vishing:** Email attachments, malicious links, or phone-based social engineering.
     - **Watering Holes/Spoofed Sites:** Cloned corporate portals or malicious web pages hosting browser exploits
     - **Physical Media:** Rogue USB drops within target facilities.
 4. **Exploitation:** The delivered payload is triggered (often requiring just a single user action, like double-clicking an attachment), executing code to gain control of the target process.
@@ -53,7 +53,7 @@ A 7-stage attack lifecycle, it describes how an adversary executes an objective.
     - **Droppers:** Small code footprints that pull down the heavier primary malware.
     - **Backdoors/Rootkits:** Highly stealthy mechanisms designed to hide from AV tools and grant persistent system access.
 6. **Command and Control (C2):** Establishing an inbound remote channel to an external infrastructure. Advanced threat groups deploy multiple disparate variants of C2 tools to preserve access if one variant is discovered and contained.
-7. **Actions on Objectives:** Executing the ultimate goal, which ranges from data exfiltration to deploying network-wide ransomeware.
+7. **Actions on Objectives:** Executing the ultimate goal, which ranges from data exfiltration to deploying network-wide ransomware.
 
 **MITRE ATT&CK Framework:**  
 A comprehensive knowledge base documenting real-world adversary behavior. It presented as a matrix where:
@@ -78,6 +78,8 @@ A conceptual model demonstrating how difficult it is for an adversary to alter t
 <img alt="Incident Handling Process" src="./Images/D0001/Image-1.png" align="right" width="400">
 The incident handling lifecycle is non-linear and highly cyclic. As evidence is discovered, the investigation scope and recovery steps dynamically evolve.
 
+<br>
+
 **Two Core Pillars of IR:**
 1. **Investigation:** Aims to uncover the initial victim (Patient Zero), map a comprehensive incident timeline, identify the adversary's toolkit/malware, and document all compromised assets.
 2. **Recovery:** Engineering and executing a precise recovery strategy to restore disrupted business operations to a verified normal state.
@@ -96,7 +98,7 @@ A prepared SOC depends on up-to-date documentation divided into four operational
 
 **Real-Time Incident Logging:** During active, high-stress incidents, continuous note-taking is mandatory. Analysts must record the Who, What, When, Where, Why, and How for every defensive action. Every log entry requires a precise timestamp, the activity details, the outcome, and the operator's name. This ensures a clean judicial chain-of-custody and accurate post-incident reconstruction.
 
-**2. Hardware and Software Toolkits**  
+**2. Hardware and Software Toolkits:**  
 Incident response teams must maintain pre-configured, accessible software and hardware infrastructure:
 - **SOC Jump Bag:** A deployment-ready physical kit containing:
     - **Forensics and Integrity:** Dedicated clean hard drives and hardware write-blockers to preserve drive integrity during imaging.
@@ -142,7 +144,7 @@ To maximize visibility, design detection layers across the entire infrastructure
 - **Endpoint:** Host AV engines, EDR hooks, and memory inspection alerts.
 - **Application:** Centralized application, database, and system service logs.
 
-**2. Triage, Context, and the Timeline**  
+**2. Triage, Context, and the Timeline:**  
 When an alert triggers, investigators must resist the urge to immediately signal an emergency alert. Establish context first. A high-privileged connection to a foreign IP is contextless without identifying the business purpose of the asset or the user's location. Establishing context prevents costly false positives and determines whether you are dealing with a compromised executive laptop or a low-impact testing node.
 
 During initial triage, package data into four vital quadrants:
@@ -178,6 +180,7 @@ Modern operations supplement traditional manual alert triage with integrated AI 
 
 #### **Section 6:** Containment, Eradication, and Recovery
 Once an incident is verified, handlers must systematically execute the containment, eradication, and recovery strategy.
+
 **1. Containment Strategy:**  
 Containment stops an attack from spreading across the network and prevents data exfiltration. Coordinated execution is essential: if multiple systems are compromised, containment actions must be executed across all affected nodes simultaneously. Isolating systems one-by-one tips off the attacker, allowing them to shift techniques, jump networks, or immediately execute ransomware payloads.
 - **Short-Term Containment:** Immediate, minimal-footprint isolation measures. This includes placing endpoints into isolated containment VLANs, pulling physical network cables, and redirecting malicious C2 traffic via DNS sinkholing, all while ensuring active memory and local storage are preserved for forensics.
@@ -199,6 +202,7 @@ Recovery returns verified, hardened assets back to production while validating s
 
 #### **Section 7:** Post-Incident Activity (Lessons Learned)
 The incident handling cycle is complete only after the team documents the lifecycle of the breach and runs a retrospective review to optimize future security controls.
+
 **1. Core Objectives:**  
 - **Objective Documentation:** Finalize an authoritative, clear incident report to preserve a clean record of the attack.
 - **Capability Improvement:** Extract operational lessons learned to improve playbook workflows, adjust alert thresholds, and patch defensive gaps.
