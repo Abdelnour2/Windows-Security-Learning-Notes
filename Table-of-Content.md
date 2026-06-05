@@ -2,6 +2,14 @@
 ## All Roadmaps
 - [All Roadmaps](Roadmaps.md)
 
+## Roadmap V3:
+- [Day 1](Roadmap-V3/Rv3-D0001-HTB-SOC-Module-1-and-2-Summary.md): Republished my summaries of my learnings on HTB's SOC Analyst Job Path's Module 1 and 2 
+
+## Roadmap V2:
+- [Day 1](Roadmap-V2/Rv2-D0001-Module-1-Summary.md): Summarized my learnings on HTB's SOC Analyst Job Path's Module 1 
+- [Day 2](Roadmap-V2/Rv2-D0002-Module-2-Summary.md): Summarized my learnings on HTB's SOC Analyst Job Path's Module 2
+- [Day 3](Roadmap-V2/Rv2-D0003-Reality-Hit-End-of-Roadmap-V2.md): End of this roadmap, and starting a new one targetting Detection Engineering
+
 ## Roadmap V1:
 
 - [Day 1](Roadmap-V1/P1-D001-Hello-Crack-and-MS-x64-Calling.md): Hello World Crack and Research on MS x64 Calling Conventions

@@ -5,22 +5,27 @@ This repository contains a documentation of all my notes while I'm learning Wind
 You can find the Table of Content [here](Table-of-Content.md)
 
 ## Current Roadmap:
-- **Courses:**  
-    - HTB’s SOC Analyst Job Path
-- **Tools:**  
-    - **SIEM:** Splunk (main), Elastic (secondary)
-    - Microsoft Sysinternals Suite tools like Sysmon, Process Explorer and Process Monitor
-- **Languages:**  
-    - Python
-    - PowerShell
+- **Courses:**
+    - **HTB’s SOC Analyst Path:** Prioritizing the following Modules:
+        - Windows Event Logs & Finding Evil
+        - Understanding Log Sources & Investigating with Splunk
+        - Windows Attacks & Defenses
+        - YARA & Sigma for SOC Analysts
+        - Detecting Windows Attacks With Splunk
+- **Tools:**
+    - **SIEM:** Splunk (Main), Elastic (Secondary)
+    - **Detection Engines:** Sigma and YARA.
+    - **Sysinternals Suite:** Focusing on Sysmon, Process Explorer, and Process Monitor
+- **Languages:**
     - C
-- **OS Knowledge:**  
+    - PowerShell
+    - Python
+    - And maybe Rust and Go to stay up with modern malware
+- **OS:**
     - Windows Internals
     - Win32 API
-- **Extra:**  
-    - **Cloud Logging:** AWS CloudTrail, Azure Activity Log
-    - Projects and Automation
-    - Communication and Writing Skills
+    - **Windows Telemetry Layers:** Learning how Windows generates visibility data, with focusing on Event Tracing for Windows (ETW), and native security event logs
+    - Windows Kernel
 
 
 This is not a final end-goal roadmap! Plans change, so I'll keep updating it as I go through this long journey!

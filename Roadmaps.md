@@ -1,5 +1,28 @@
 # All Roadmaps:
-## Roadmap V2 (Current):
+## Roadmap V3 (Current):
+- **Courses:**
+    - **HTB’s SOC Analyst Path:** Prioritizing the following Modules:
+        - Windows Event Logs & Finding Evil
+        - Understanding Log Sources & Investigating with Splunk
+        - Windows Attacks & Defenses
+        - YARA & Sigma for SOC Analysts
+        - Detecting Windows Attacks With Splunk
+- **Tools:**
+    - **SIEM:** Splunk (Main), Elastic (Secondary)
+    - **Detection Engines:** Sigma and YARA.
+    - **Sysinternals Suite:** Focusing on Sysmon, Process Explorer, and Process Monitor
+- **Languages:**
+    - C
+    - PowerShell
+    - Python
+    - And maybe Rust and Go to stay up with modern malware
+- **OS:**
+    - Windows Internals
+    - Win32 API
+    - **Windows Telemetry Layers:** Learning how Windows generates visibility data, with focusing on Event Tracing for Windows (ETW), and native security event logs
+    - Windows Kernel
+
+## Roadmap V2:
 - **Courses:**  
     - HTB’s SOC Analyst Job Path
 - **Tools:**  
