@@ -3,9 +3,15 @@
 - [All Roadmaps](Roadmaps.md)
 
 ## Roadmap V3:
-- [Day 1](Roadmap-V3/Rv3-D0001-HTB-SOC-Module-1-and-2-Summary.md): Republished my summaries of my learnings on HTB's SOC Analyst Job Path's Module 1 and 2 
+
+- [Day 1](Roadmap-V3/Rv3-D0001-HTB-SOC-Module-1-and-2-Summary.md): Republished my summaries of my learnings on HTB's SOC Analyst Job Path's Module 1 and 2
+- [Day 2](Roadmap-V3/Rv3-D0002-HTB-SOC-Module-3-Summary.md): Summarized Module 3 of HTB's SOC Analyst course
+- [Day 3](Roadmap-V3/Rv3-D0003-Learning-Sysmon.md): Gained a solid foundation of Sysmon
+- [Day 4](Roadmap-V3/Rv3-D0004-Splunk.md): Gained a solid foundation about Splunk and SPL
+- [Day 5 + Day 6](Roadmap-V3/Rv3-D0005-+-D0006-DE-Project-1.md): Completed a full Detection Engineering project simulating a full attack from start to fininsh and making detections on it
 
 ## Roadmap V2:
+
 - [Day 1](Roadmap-V2/Rv2-D0001-Module-1-Summary.md): Summarized my learnings on HTB's SOC Analyst Job Path's Module 1 
 - [Day 2](Roadmap-V2/Rv2-D0002-Module-2-Summary.md): Summarized my learnings on HTB's SOC Analyst Job Path's Module 2
 - [Day 3](Roadmap-V2/Rv2-D0003-Reality-Hit-End-of-Roadmap-V2.md): End of this roadmap, and starting a new one targetting Detection Engineering

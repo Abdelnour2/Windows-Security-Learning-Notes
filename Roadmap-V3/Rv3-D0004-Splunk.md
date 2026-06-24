@@ -1,6 +1,6 @@
 # Roadmap V3 - Day 4: Wednesday 10 June 2026
 ## Summary:
-Learned Spln
+Gained a foundation in Splunk and SPL 
 
 ## Documentation:
 Today's plan is to get a solid foundation in Splunk, the Splunk Processing Language (SPL), and how to connect Sysmon with Splunk to do analysis!

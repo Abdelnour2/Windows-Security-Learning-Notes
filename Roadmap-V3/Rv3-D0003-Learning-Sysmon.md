@@ -27,7 +27,7 @@ From the introduction, we know that Sysmon (short for System Monitor) is a Windo
     - **-u:** Uninstall service and driver.
     - **-u force:** Causes uninstall to proceed even when some components are not installed.
 
-Events are stored in “Applications and Services” under “Logs/Microsoft/Windows/Sysmon/Operational”. And they are in UTC standard time.
+Events are stored in “Applications and Services Logs” under “/Microsoft/Windows/Sysmon/Operational”. And they are in UTC standard time.
 
 Adding -accepteula before -i command skips the End User License Agreement (EULA) popup, it makes Sysmon accept them automatically and then install.
 
