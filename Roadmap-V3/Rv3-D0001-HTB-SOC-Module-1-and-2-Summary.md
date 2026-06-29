@@ -1,4 +1,4 @@
-# Roadmap V3 - Day 1: Friday 5 June 2026
+# Roadmap V3 - Documentation 1: Friday 5 June 2026
 ## Summary:
 Summarized what I learned in HTB's SOC Analyst course's Module 1 and 2.
 

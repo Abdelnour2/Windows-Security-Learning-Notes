@@ -4,11 +4,13 @@
 
 ## Roadmap V3:
 
-- [Day 1](Roadmap-V3/Rv3-D0001-HTB-SOC-Module-1-and-2-Summary.md): Republished my summaries of my learnings on HTB's SOC Analyst Job Path's Module 1 and 2
-- [Day 2](Roadmap-V3/Rv3-D0002-HTB-SOC-Module-3-Summary.md): Summarized Module 3 of HTB's SOC Analyst course
-- [Day 3](Roadmap-V3/Rv3-D0003-Learning-Sysmon.md): Gained a solid foundation of Sysmon
-- [Day 4](Roadmap-V3/Rv3-D0004-Splunk.md): Gained a solid foundation about Splunk and SPL
-- [Day 5 + Day 6](Roadmap-V3/Rv3-D0005-+-D0006-DE-Project-1.md): Completed a full Detection Engineering project simulating a full attack from start to fininsh and making detections on it
+- [Documentation 1](Roadmap-V3/Rv3-D0001-HTB-SOC-Module-1-and-2-Summary.md): Republished my summaries of my learnings on HTB's SOC Analyst Job Path's Module 1 and 2
+- [Documentation 2](Roadmap-V3/Rv3-D0002-HTB-SOC-Module-3-Summary.md): Summarized Module 3 of HTB's SOC Analyst course
+- [Documentation 3](Roadmap-V3/Rv3-D0003-Learning-Sysmon.md): Gained a solid foundation of Sysmon
+- [Documentation 4](Roadmap-V3/Rv3-D0004-Splunk.md): Gained a solid foundation about Splunk and SPL
+- [Documentation 5](Roadmap-V3/Rv3-D0005-DE-Project-Iteration-1.md): Completed a full Detection Engineering project simulating a full attack from start to fininsh and making detections on it
+- [Documentation 6](Roadmap-V3/Rv3-D0006-DE-Project-Iterations-Planning-+-Changes.md): Planned how I will execute each iteration and declared some Quality of Life improvements for the documentations 
+- [Documentation 7](Roadmap-V3/Rv3-D0007-DE-Project-Part-2.md): Executed Iteration 2 of the Detection Engineering project where I simulated and detected the LSASS attack!
 
 ## Roadmap V2:
 

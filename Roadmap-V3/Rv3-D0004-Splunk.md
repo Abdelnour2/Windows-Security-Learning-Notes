@@ -1,4 +1,4 @@
-# Roadmap V3 - Day 4: Wednesday 10 June 2026
+# Roadmap V3 - Documentation 4: Wednesday 10 June 2026
 ## Summary:
 Gained a foundation in Splunk and SPL 
 

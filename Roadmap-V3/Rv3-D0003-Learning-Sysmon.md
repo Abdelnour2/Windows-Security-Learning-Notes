@@ -1,4 +1,4 @@
-# Roadmap V3 - Day 3: Tuesday 9 June 2026
+# Roadmap V3 - Documentation 3: Tuesday 9 June 2026
 ## Summary:
 Deep-Dived into Sysmon
 

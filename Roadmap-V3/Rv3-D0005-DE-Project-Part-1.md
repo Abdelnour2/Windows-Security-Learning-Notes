@@ -1,4 +1,4 @@
-# Roadmap V3 - Day 5: Tuesday 23 June 2026 + Day 6: Wednesday 24 June 2026
+# Roadmap V3 - Documentation 5: Tuesday 23 June 2026 + Wednesday 24 June 2026
 ## Summary:
 I completed a full Detection Engineering project on a span of 2 days, simulating a full attack, and making detections (YARA and Sigma) for it!
 
