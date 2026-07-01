@@ -11,6 +11,7 @@
 - [Documentation 5](Roadmap-V3/Rv3-D0005-DE-Project-Iteration-1.md): Completed a full Detection Engineering project simulating a full attack from start to fininsh and making detections on it
 - [Documentation 6](Roadmap-V3/Rv3-D0006-DE-Project-Iterations-Planning-+-Changes.md): Planned how I will execute each iteration and declared some Quality of Life improvements for the documentations 
 - [Documentation 7](Roadmap-V3/Rv3-D0007-DE-Project-Part-2.md): Executed Iteration 2 of the Detection Engineering project where I simulated and detected the LSASS attack!
+- [Documentation 8](Roadmap-V3/Rv3-D0008-DE-Project-Part-3.md): Executed Iteration 3 of the Detection Engineering project where I simulated and detected the Registry Key Persistence attacks! Plus I fixed a Splunk problem I've been experiencing since the start of Iteration 1
 
 ## Roadmap V2:
 
